@@ -108,6 +108,7 @@
 .icon-img {
   height: 50px;
   width: 50px;
+  margin-right: 20px;
 }
 .icon-h {
   color: #0f172a;
@@ -156,6 +157,10 @@
   outline: none;
 }
 .icon-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-color: transparent;
   border: none;
   outline: none;

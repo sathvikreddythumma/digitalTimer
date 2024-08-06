@@ -109,15 +109,8 @@ class DigitalTimer extends Component {
                       onClick={this.onChangeStartOrPause}
                     >
                       <img src={imgUrl} alt={altDesc} className="icon-img" />
-                    </button>
-                  </div>
-                  <div className="icon-img-bg">
-                    <button
-                      className="icon-h icon-btn"
-                      type="button"
-                      onClick={this.onChangeStartOrPause}
-                    >
-                      {desc}
+
+                      <p className="icon-h">{desc}</p>
                     </button>
                   </div>
                 </div>
@@ -133,15 +126,8 @@ class DigitalTimer extends Component {
                         alt="reset icon"
                         className="icon-img"
                       />
-                    </button>
-                  </div>
-                  <div className="icon-img-bg">
-                    <button
-                      className="icon-h icon-btn"
-                      type="button"
-                      onClick={this.resetChange}
-                    >
-                      Reset
+
+                      <p className="icon-h">Reset</p>
                     </button>
                   </div>
                 </div>
